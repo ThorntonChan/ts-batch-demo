@@ -2,9 +2,8 @@
 
 ## Description
 
-ts-batch-demo is Demo of using ts-batch for micro-batching and usage in a web server. The server is a simple Express
-server
-that accepts POST and GET requests invokes the micro-batcher's methods. See more on ts-batch
+ts-batch-demo is demo showing usage of ts-batch for micro-batching and usage in a web server. The server is a simple
+Express server that accepts POST and GET requests invokes the micro-batcher's methods. See more on ts-batch
 on [github](https://github.com/ThorntonChan/ts-batch)
 or [npm-registry](https://www.npmjs.com/package/ts-batch).
 A test suite is included to verify the functionality of the server and ts-batch's micro-batcher.
