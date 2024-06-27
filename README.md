@@ -12,8 +12,23 @@ A test suite is included to verify the functionality of the server and ts-batch'
 
 To install and run the project:
 
-1. Install the dependencies: `npm install`
-2. Run with `npm start`
+```bash
+# Install dependencies:
+npm install
+
+# Run in development
+npm run dev
+
+# Build
+npm run build
+
+# Run in non-development
+npm start
+
+# Run tests
+npm test
+```
+Using npm or your preferred package manager
 
 A collection of [API calls](./Insomnia_api_collection.json). developed in [Insomnia](https://insomnia.rest/) is
 available for testing. Compatability with other API testing tools is not
