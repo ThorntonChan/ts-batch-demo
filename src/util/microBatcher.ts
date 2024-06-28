@@ -1,4 +1,4 @@
-import { MicroBatcher } from 'ts-batch/dist/MicroBatcher';
+import { MicroBatcher } from 'ts-batch';
 import { MessageType } from '../controller/microbatch/schema';
 
 export const microBatcherConfig = {

@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals';
-import { MicroBatcher } from 'ts-batch/dist/MicroBatcher';
+import { MicroBatcher } from 'ts-batch';
 import { microBatcherConfig } from '../../src/util/microBatcher';
 
 const mockMicroBatcher = new MicroBatcher(microBatcherConfig);
